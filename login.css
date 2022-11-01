@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    overflow: hidden;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formLogin {
+    padding: 10%;
+    color: #0D2C3F;
+    font-weight: bold;
+    width: 800px;
+    z-index: 2;
+}
+
+.btnLogar {
+    margin-top: 2%;
+    background-color: #9DAEB9;
+    border: none;
+    font-weight: bold;
+}
+
+.btnLogar:hover {
+    background-color: #0D2C3F;
+    transition: all 1s;
+}
+
+.elipse1 {
+    display: flex;
+    align-self: start;
+    margin-left: -20%;
+    margin-bottom: -90%;
+    
+    clip-path: circle(50% at 50% 50%);
+    background-color: #0D2C3F;
+    width: 700px;
+    height: 700px;
+
+}
+
+.elipse2 {
+    margin-top: -176%;
+    margin-right: -260px;
+
+    clip-path: circle(50% at 50% 50%);
+    background-color: #0D2C3F;
+    width: 700px;
+    height: 700px;
+}
+
+
+@media (max-width: 800px)
+{
+  .elipse2
+   {
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+   }
+
+   .elipse1
+   {
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+   }
+}
