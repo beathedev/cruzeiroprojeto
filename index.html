@@ -52,21 +52,26 @@
                         <div class="col">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Destino:</label>
-                                <input type="text" class="form-control" id="" placeholder="Destino">
+                                <input type="text" class="form-control" id="" placeholder="Destino" required>
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Duração:</label>
-                                <input type="text" class="form-control" id="" placeholder="Destino">
+                                <select class="form-select" aria-label="Default select example" required>
+                                    <option selected>Duração da viagem</option>
+                                    <option value="1">1 - 2 semanas </option>
+                                    <option value="2">3 - 4 semanas </option>
+                                    <option value="3">5 - 6 semanas</option>
+                                  </select>
                             </div>
                         </div>
                         <div class="col">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Passageiros:</label>
-                                <input type="text" class="form-control" id="" placeholder="Destino">
+                                <input type="number" class="form-control" id="" placeholder="Quantidade de pessoas" required>
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Data:</label>
-                                <input type="date" class="form-control" id="" placeholder="Destino">
+                                <input type="date" class="form-control" id="" placeholder="" required>
                             </div>
                         </div>
                         <div class="form-group button">
