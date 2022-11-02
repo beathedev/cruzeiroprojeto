@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-weight: bold;
+    
+}
+
+.bgNav {
+    background-color: #0D2C3F;
+}
+
+.bgNav a, .bgNav li {
+    color: #fff;
+}
+
+
+.btn {
+    padding: 10px;
+    background-color: #9DAEB9;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #0D2C3F;
+    transition: all 0.5s;
+}
+
+
+
+footer {
+    background-color: #0D2C3F;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer i {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}

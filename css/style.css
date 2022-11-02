@@ -5,7 +5,7 @@
 }
 
 header {
-    background-image: url('img2.png');
+    background-image: url('/imgs/img2.png');
     background-size: cover;
     width: 100%;
     min-height: 75vh;

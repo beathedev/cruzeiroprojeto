@@ -7,7 +7,7 @@
 
 body {
     overflow: hidden;
-    background-image: url('Cadastrar.png');
+    background-image: url('/imgs/Cadastrar.png');
     background-repeat:  no-repeat;
     background-size: cover;
     width: 100%;
@@ -30,7 +30,7 @@ body {
 }
 
 .formLogin {
-    padding: 10%;
+    padding: 5%;
     color: #0D2C3F;
     font-weight: bold;
     z-index: 2;
@@ -48,29 +48,6 @@ body {
     transition: all 1s;
 }
 
-/* .elipse1 {
-    display: flex;
-    align-self: start;
-    margin-left: -20%;
-    margin-bottom: -90%;
-    
-    clip-path: circle(50% at 50% 50%);
-    background-color: #0D2C3F;
-    width: 700px;
-    height: 700px;
-
-}
-
-.elipse2 {
-    margin-top: -175%;
-    margin-right: -260px;
-
-    clip-path: circle(50% at 50% 50%);
-    background-color: #0D2C3F;
-    width: 700px;
-    height: 700px;
-} */
-
 
 @media (max-width: 800px)
 {
@@ -81,3 +58,5 @@ body {
     }
     
 }
+
+
