@@ -7,7 +7,7 @@
 
 body {
     overflow: hidden;
-    background-image: url('/imgs/Cadastrar.png');
+    background-image: url('https://raw.githubusercontent.com/beathedev/cruzeiroprojeto/main/imgs/Cadastrar.png');
     background-repeat:  no-repeat;
     background-size: cover;
     width: 100%;
