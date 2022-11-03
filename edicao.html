@@ -118,8 +118,14 @@
                                 </div>
 
                                 <div class="hstack gap-3">
-                                    <button class="btn btn-primary btn-sm btn-icon-text"><i class="bi bi-save"></i> <span class="text">Salvar edição</span></button>
-                                    <button class="btn bg-danger btn-sm btn-icon-text "><i class="bi bi-x"></i> <span class="text">Excluir Conta</span></button>
+                                    <!-- Botão salvar -->
+                                    <button class="btn btn-primary btn-sm btn-icon-text">
+                                    <i class="bi bi-save"></i> <span class="text">Salvar edição</span></button>
+
+                                    <!-- Botão excluir -->
+                                    <button type="button" class="btn bg-danger btn-sm btn-icon-text" 
+                                    data-toggle="modal" data-target="#exampleModal"><i class="bi bi-x"></i> 
+                                    <span class="text">Excluir Conta</span></button>
                                   </div>
     
                             </div>
@@ -133,6 +139,32 @@
 
             </div>
         </div>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ATENÇÃO!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Deseja mesmo excluir sua conta? Essa ação não poderá ser revertida, sua conta não poderá ser recuperada. Tem certeza que deseja continuar?
+        </div>
+        <div class="modal-footer">
+          <form>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn bg-danger">Deletar Conta</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
     </main>
     <footer class="text-muted py-5">

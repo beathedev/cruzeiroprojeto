@@ -30,7 +30,10 @@ header {
     transition: all 0.5s;
 }
 
-
+.close {
+    border: none;
+    padding: 3px;
+}
 
 footer {
     background-color: #0D2C3F;
