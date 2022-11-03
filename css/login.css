@@ -6,7 +6,7 @@
 
 
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
     background-image: url('https://raw.githubusercontent.com/beathedev/cruzeiroprojeto/main/imgs/Cadastrar.png');
     background-repeat:  no-repeat;
     background-size: cover;
@@ -30,7 +30,7 @@ body {
 }
 
 .formLogin {
-    padding: 10%;
+    padding: 5%;
     color: #0D2C3F;
     font-weight: bold;
     z-index: 2;
@@ -41,6 +41,7 @@ body {
     background-color: #9DAEB9;
     border: none;
     font-weight: bold;
+    margin-bottom: 2%;
 }
 
 .btnLogar:hover {
@@ -48,36 +49,18 @@ body {
     transition: all 1s;
 }
 
-/* .elipse1 {
-    display: flex;
-    align-self: start;
-    margin-left: -20%;
-    margin-bottom: -90%;
-    
-    clip-path: circle(50% at 50% 50%);
-    background-color: #0D2C3F;
-    width: 700px;
-    height: 700px;
-
+.alert {
+    margin-top: 10px;
 }
-
-.elipse2 {
-    margin-top: -175%;
-    margin-right: -260px;
-
-    clip-path: circle(50% at 50% 50%);
-    background-color: #0D2C3F;
-    width: 700px;
-    height: 700px;
-} */
-
 
 @media (max-width: 800px)
 {
     
     body {
-        overflow: hidden;
+        /* overflow: hidden; */
         background-image: none;
     }
     
 }
+
+

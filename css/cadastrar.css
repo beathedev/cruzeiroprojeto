@@ -6,7 +6,7 @@
 
 
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
     background-image: url('https://raw.githubusercontent.com/beathedev/cruzeiroprojeto/main/imgs/Cadastrar.png');
     background-repeat:  no-repeat;
     background-size: cover;
@@ -41,6 +41,7 @@ body {
     background-color: #9DAEB9;
     border: none;
     font-weight: bold;
+    margin-bottom: 2%;
 }
 
 .btnLogar:hover {
@@ -48,12 +49,15 @@ body {
     transition: all 1s;
 }
 
+.alert {
+    margin-top: 10px;
+}
 
 @media (max-width: 800px)
 {
     
     body {
-        overflow: hidden;
+        /* overflow: hidden; */
         background-image: none;
     }
     
