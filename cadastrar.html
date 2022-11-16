@@ -23,10 +23,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <form class="formLogin  mx-auto">
+                <form action="envio.php" method="post" class="formLogin  mx-auto">
 
                       <label class="control-label" for="exampleInputEmail1">Nome </label>
-                      <input type="text" class="form-control" placeholder="Email" required>
+                      <input type="text" name="nome" class="form-control" maxlength="30" placeholder="Nome" required>
                      
 
                       <label class="control-label" for="exampleInputPassword1">CPF</label>
@@ -36,16 +36,16 @@
 
 
                       <label class="control-label" for="exampleInputPassword1">Email</label>
-                      <input type="email" class="form-control"  placeholder="Email" required>
+                      <input type="email" name="email" class="form-control" maxlength="40" placeholder="Email" required>
                     
                       <label class="control-label" for="exampleInputPassword1">Senha </label>
-                      <input type="password" class="form-control"  placeholder="***" required>
+                      <input type="password" name="senha" class="form-control" maxlength="20" placeholder="***" required>
 
                       <label class="control-label" for="exampleInputPassword1">Data de Nascimento </label>
-                      <input type="date" class="form-control"  placeholder="Data de Nascimento" required>
+                      <input type="date" name="data" class="form-control"  placeholder="Data de Nascimento" required>
                       
                       <label class="control-label" for="exampleInputPassword1">Telefone </label>
-                      <input type="text" class="form-control"  placeholder="Telefone" required>
+                      <input type="text" name="telefone" class="form-control" maxlength="20" placeholder="Telefone" required>
                        
                       
                     <button type="submit" class="btn btn-primary btnLogar">CRIAR</button>
