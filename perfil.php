@@ -59,7 +59,7 @@
                         <a class="nav-link" href="index.html">Home <i class="bi bi-house"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="perfil.html">Perfil <i class="bi bi-file-earmark-person"></i></a>
+                        <a class="nav-link active" href="#">Perfil <i class="bi bi-file-earmark-person"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login.html">Login <i class="bi bi-box-arrow-in-right"></i></a>
@@ -128,6 +128,21 @@
                                 <input type="text" value="'.$rows_id['telefone'].'" name="telefone" class="form-control">
                             </div>
                             </div>
+
+                            <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label class="form-label">Endereço</label>
+                                <input type="text"  name="endereço" class="form-control">
+                            </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label class="form-label">Profissão</label>
+                                <input type="text"  name="profissao" class="form-control">
+                            </div>
+                            </div>
+
                             <div class="col-lg-6">
                             <div class="mb-3">
                                 <label class="form-label">Senha</label>
